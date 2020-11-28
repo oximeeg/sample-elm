@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "make": "elm make src/Main.elm",
+    "reactor": "elm reactor",
+    "build": "npm run make && npm run reactor"
+  },
   "devDependencies": {
     "elm": "^0.19.1-3"
   }
